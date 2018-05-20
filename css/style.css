@@ -1,0 +1,56 @@
+html {
+    font-size: 15;
+}
+
+i.fa.fa-cog {
+    font-weight: lighter;
+    font-size: 70%;
+}
+
+h1 .fa.fa-cogs {
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 70%;
+}
+
+.aboreco {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.slider {
+    background-position: center center;
+    height: 20%;
+    background-size: cover;
+    background-image: url("../images/IOT.png");
+}
+
+.aboreco h1 {
+    font-size: 10vh;
+    color: #000000 !important;
+}
+
+.aboreco h1 a:hover {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h1 i.fa-cog:hover {
+    color: #fa0000 !important;
+    -webkit-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+h1 i.fa-cogs:hover {
+    color: #1be700 !important;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
